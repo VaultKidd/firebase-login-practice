@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  background: none;
+  border: grey 1px solid;
+  margin-left: 24px;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+nav {
+  padding: 20px;
+  border-bottom: 2px rgb(211, 211, 211) solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(235, 235, 235);
+}
+
+.page__details {
+  display: flex;
+}
+
+.menu {
+  border: none;
+  background: none;
+  color: rgb(104, 31, 104);
+}
+
+.login__btn {
+  background: rgb(234, 236, 217);
+  color: black;
+}
+
+.register__btn {
+  background: rgb(104, 31, 104);
+}
+
+.logout__btn {
+  background: rgb(104, 31, 104);
+  border-radius: 50%;
+  min-width: 30px;
+}
+
+
+.logo {
+  margin-left: 24px;
+  max-width: 250px
+}
+
