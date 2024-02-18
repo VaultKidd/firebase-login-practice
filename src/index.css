@@ -63,6 +63,14 @@ nav {
   min-width: 30px;
 }
 
+.skeleton {
+  background: rgb(83, 83, 83);
+  border-radius: 50%;
+  min-width: 30px;
+  min-height: 30px;
+
+}
+
 
 .logo {
   margin-left: 24px;
